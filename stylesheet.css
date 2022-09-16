@@ -1,0 +1,87 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+  
+
+.header{
+    background-color: darkslategray;
+    color:burlywood;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+   
+}
+
+.card-container{
+    position:relative;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 10px;
+    flex-grow: 5px;
+}
+
+.navbar {
+    background-color: darksalmon;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+
+.navbar a:hover {
+    background-color: salmon;
+    color: black;
+}
+  
+
+.navbar a.active {
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card a:hover .overlay {
+    opacity: 1;
+  }
