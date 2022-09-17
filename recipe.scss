@@ -1,0 +1,38 @@
+$background:url("/images/banana-bread.jpg");
+
+
+:root{
+    --color1: bisque;
+    --color2: burlywood;
+    --color3: darkslategray;
+}
+
+
+.container {
+    background-image:$background;
+    background-size: cover;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bradley Hand';
+    ul {
+        margin: 0 ;
+        padding: 0;
+        list-style: none;
+      }
+     
+      li { list-style: none; }
+
+}
+body{
+    background-color: var(--color1);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+      
+    }
+}
